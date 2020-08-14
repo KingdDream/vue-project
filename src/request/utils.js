@@ -1,3 +1,10 @@
+/*
+ * @Descripttion           : 
+ * @version                : 
+ * @Author                 : yangliang
+ * @Date                   : 2020-08-14 17:51:27
+ * @LastEditTime           : 2020-08-14 18:04:37
+ */
 
 const isDev = process.env.NODE_ENV === 'development'; // 开发 or 生产
 

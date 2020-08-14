@@ -1,11 +1,11 @@
 /*
- * @Descripttion: 
- * @version: 
- * @Author: yl
- * @Date: 2020-08-12 10:24:47
- * @LastEditors            : Please set LastEditors
- * @LastEditTime           : 2020-08-14 15:28:45
+ * @Descripttion           : 
+ * @version                : 
+ * @Author                 : yangliang
+ * @Date                   : 2020-08-14 17:51:28
+ * @LastEditTime           : 2020-08-14 17:58:59
  */
+
 let path = require('path')
 let glob = require('glob')
 let myModule = require('./private.config.js')

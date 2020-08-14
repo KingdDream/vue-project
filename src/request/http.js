@@ -2,9 +2,10 @@
  * @Descripttion           : 
  * @version                : 
  * @Author                 : yangliang
- * @Date                   : 2020-08-13 15:03:09
- * @LastEditTime           : 2020-08-14 15:21:39
+ * @Date                   : 2020-08-14 17:51:27
+ * @LastEditTime           : 2020-08-14 18:03:40
  */
+
 import axios from 'axios';
 import QS from 'qs';
 import {checkStatus} from './utils';
