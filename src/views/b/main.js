@@ -1,17 +1,14 @@
-/** 
- * @Descripttion           : 
- * @version                : 
- * @Author                 : yl
- * @Date                   : 2020-08-11 17:40:23
- * @LastEditors            : yl
- * @LastEditTime           : 2020-08-14 15:16:07
- */
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from '../../store'
+// 添加vans---插件
+import vueVant from 'vant'
+import 'vant/lib/index.css';
+
 
 Vue.config.productionTip = false
+Vue.use(vueVant)
 
 new Vue({
   router,

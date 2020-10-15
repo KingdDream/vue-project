@@ -1,14 +1,18 @@
 /*
- * @Descripttion           : 
- * @version                : 
- * @Author                 : yangliang
- * @Date                   : 2020-08-14 17:51:28
- * @LastEditTime           : 2020-08-14 17:59:10
+ * @Description                      : 
+ * @Author                           : yangliang
+ * @Date                             : 2020-08-14 17:51:28
+ * @LastEditors: yangliang
+ * @LastEditTime: 2020-09-11 09:49:33
  */
+
+
 let sceneArr = {
   target: '0',                    // 当前模块打包
   0: 'a',        
-  1: 'b',         
+  1: 'b',
+  2: 'c',
+  3: 'd',
 }
 
 module.exports = {

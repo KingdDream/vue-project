@@ -1,9 +1,9 @@
 /*
- * @Descripttion           : 
- * @version                : 
- * @Author                 : yangliang
- * @Date                   : 2020-08-14 17:51:28
- * @LastEditTime           : 2020-08-14 17:58:59
+ * @Description: 
+ * @Author: yangliang
+ * @Date: 2020-08-14 17:51:28
+ * @LastEditors: yangliang
+ * @LastEditTime: 2020-08-25 17:31:04
  */
 
 let path = require('path')
@@ -18,11 +18,11 @@ function handleEntry(entry) {
  
  glob.sync(entry).forEach(item => {
   entryBaseName = path.basename(item, path.extname(item))
-  console.log('entry:', entryBaseName)
+//   console.log('entry:', entryBaseName)
   entryTemplate = item.split('/').splice(-3)
-  console.log('template:', entryTemplate)
+//   console.log('template:', entryTemplate)
   entryPathName = entryBaseName 
-  console.log('filename', entryPathName)
+//   console.log('filename', entryPathName)
  
   entries[entryPathName] = {
    // 配置入口js文件
@@ -53,7 +53,7 @@ module.exports = {
     index: '/',
     // 告诉dev-server在服务器启动后打开浏览器，将其设置true为打开默认浏览器
     open: false,
-    host: 'localhost',
+   //  host: '192.168.43.128',
     port: 8080,
     https: false,
     hotOnly: false,
@@ -70,4 +70,3 @@ module.exports = {
    }
  }
 }
- console.log(process.dev)

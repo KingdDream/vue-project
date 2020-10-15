@@ -1,10 +1,4 @@
-/*
- * @Descripttion           : 
- * @version                : 
- * @Author                 : yangliang
- * @Date                   : 2020-08-14 17:51:27
- * @LastEditTime           : 2020-08-14 18:03:40
- */
+
 
 import axios from 'axios';
 import QS from 'qs';
