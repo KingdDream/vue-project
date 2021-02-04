@@ -3,7 +3,7 @@
  * @Author: yangliang
  * @Date: 2020-08-14 17:51:28
  * @LastEditors: yangliang
- * @LastEditTime: 2021-02-01 16:54:49
+ * @LastEditTime: 2021-02-04 09:08:09
  */
 
 let path = require('path')
@@ -60,7 +60,7 @@ module.exports = {
     hotOnly: false,
     proxy: { //配置多个跨域
       "/api": {
-          target: "http://172.11.11.11:7071",
+          target: "http://172.11.11.11",
           changeOrigin: true,
           // ws: true,//websocket支持
           secure: false,
