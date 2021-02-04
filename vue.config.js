@@ -3,7 +3,7 @@
  * @Author: yangliang
  * @Date: 2020-08-14 17:51:28
  * @LastEditors: yangliang
- * @LastEditTime: 2020-08-25 17:31:04
+ * @LastEditTime: 2021-02-01 16:54:49
  */
 
 let path = require('path')
@@ -15,14 +15,15 @@ function handleEntry(entry) {
  let entryBaseName = ''
  let entryPathName = ''
  let entryTemplate = ''
+
  
  glob.sync(entry).forEach(item => {
   entryBaseName = path.basename(item, path.extname(item))
-//   console.log('entry:', entryBaseName)
+   console.log('entry:', entryBaseName)
   entryTemplate = item.split('/').splice(-3)
-//   console.log('template:', entryTemplate)
+   console.log('template:', entryTemplate)
   entryPathName = entryBaseName 
-//   console.log('filename', entryPathName)
+   console.log('filename', entryPathName)
  
   entries[entryPathName] = {
    // 配置入口js文件

@@ -1,14 +1,21 @@
+<!--
+ * @Description: 
+ * @Author: yangliang
+ * @Date: 2020-08-14 17:51:28
+ * @LastEditors: yangliang
+ * @LastEditTime: 2020-12-18 19:57:54
+-->
 <template>
   <div id="box">
     <div></div>
-   <!-- <div class="a"></div>
+   <div class="a"></div>
    <div class="b">
      <div>
        <BaseRefreshList v-if="show" :Interface='Interface'/>
        <div v-if="!show">加载中</div>
      </div>
    </div>
-   <div class="c"></div> -->
+   <div class="c"></div>
   </div>
 </template>
 <script>
@@ -24,7 +31,7 @@ export default {
     BaseRefreshList:()=>import('@/components/BaseRefreshList')
   },
   mounted() {
-    // this.FoodSortOperateType();
+    this.FoodSortOperateType();
   },
 
   methods: {
